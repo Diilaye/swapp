@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/theme/'));
 
 app.get('/', (req, res) => res.sendFile(path.resolve('web/index.html')));
 app.get('/terms-of-service', (req, res) => res.sendFile(path.resolve('theme/index.html')));
-app.get('/*', (req, res) => res.sendFile(path.resolve('web/index.html')));
+app.get('*', (req, res) => res.sendFile(path.resolve('web/index.html')));
 
 const server = http.createServer(app);
 
