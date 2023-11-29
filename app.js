@@ -40,8 +40,8 @@ app.post ('/contact', (req, res) => {
         const mailOptions = {
         from: 'swapp@deally.fr',
         to: 'swapp@deally.fr',
-        subject:  req.body.subject,
-        html: `Nom : ${req.body.nom} \n Numero :  ${req.body.phone}  \n Message :  ${req.body.message}`
+        subject:  req.body.sujet,
+        html: `Nom : ${req.body.nom} \n Numero de telephone :  ${req.body.telephone}  \n Message :  ${req.body.message}`
             
         };
         // Envoyer l'e-mail
