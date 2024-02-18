@@ -1,6 +1,6 @@
 {
-    "name": "swapped",
-    "short_name": "swapped",
+    "name": "partenaire",
+    "short_name": "partenaire",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
